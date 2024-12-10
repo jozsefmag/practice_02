@@ -1,7 +1,7 @@
 const { Given, When, Then } = require('@wdio/cucumber-framework');
 const { loginTrello, settingsPage } = require('../helper/loginTrello')
 
-//Edit profile settings
+//Edit profile setting
 Given('user is on the profile and visibility settings page', async () => {
     await loginTrello()
     await settingsPage()
