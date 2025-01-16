@@ -1,0 +1,12 @@
+{
+  "semi": false,
+  "overrides": [
+    {
+      "files": "*loginTrello.js",
+      "options": {
+        "semi": true
+      }
+    }
+  ],
+  "bracketSpacing": false
+}
