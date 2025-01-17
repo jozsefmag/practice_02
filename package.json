@@ -376,7 +376,7 @@
     "zip-stream": "^6.0.1"
   },
   "scripts": {
-    "test": "wdio run wdio.conf.js"
+    "test": "wdio run wdio.conf.js",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "prettier:write": "prettier . --write",
