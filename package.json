@@ -376,7 +376,7 @@
     "zip-stream": "^6.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "wdio": "wdio run wdio.conf.js",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
